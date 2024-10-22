@@ -199,19 +199,17 @@ $ git log
 commit 1ec08c4d79f4b0a91113ebfc135d9ac231c509f9 (HEAD -> master)
 Author: Nela Šmejkalová <smejkne21@sps-prosek.cz>
 Date:   Tue Oct 8 12:43:58 2024 +0200
-
-    druhej commit
-
+fdsfdsfdsfdfdsfds
+    druhej commitfdsfdsfsdss
 commit 192fe52164520101a2ad6a936d93d7e999730cb8
 Author: Nela Šmejkalová <smejkne21@sps-prosek.cz>
-Date:   Tue Oct 8 12:42:12 2024 +0200
-
+Date:   Tue Oct 8 12:42:12 2024 +0200fsfsfdsd
     prvni commit
-
+fdsfsdfdsfs
 nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
 $ git innit
 git: 'innit' is not a git command. See 'git --help'.
-
+fdfdfdfdfdddfdfddfdffdffdfdfdfddffdfddfdfdfdfdfdfdfsfsffsf
 The most similar command is
         init
 
