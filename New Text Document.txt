@@ -1,0 +1,222 @@
+nelan@Nelcaa-pc MINGW64 ~
+$ cd /c/Users/nelan/Documents/Nelca/Škola/Praxe/Git/git_zkouska
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska
+$ ls
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska
+$ git init
+Initialized empty Git repository in C:/Users/nelan/Documents/Nelca/Škola/Praxe/Git/git_zkouska/.git/
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ ls -a
+./  ../  .git/
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git config --global user.name "Nela Šmejkalová"
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git config --global user.email "smejkne21@sps-prosek.cz"
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git commit -m "prvni commit"
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        prvni.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config advice.addEmptyPathspec false"
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git add .
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git commit -m "prvni commit"
+[master (root-commit) 192fe52] prvni commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 prvni.txt
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git log
+commit 192fe52164520101a2ad6a936d93d7e999730cb8 (HEAD -> master)
+Author: Nela Šmejkalová <smejkne21@sps-prosek.cz>
+Date:   Tue Oct 8 12:42:12 2024 +0200
+
+    prvni commit
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        druhej.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git add .
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git commit -m "druhej commit"
+[master 1ec08c4] druhej commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 druhej.txt
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git log
+commit 1ec08c4d79f4b0a91113ebfc135d9ac231c509f9 (HEAD -> master)
+Author: Nela Šmejkalová <smejkne21@sps-prosek.cz>
+Date:   Tue Oct 8 12:43:58 2024 +0200
+
+    druhej commit
+
+commit 192fe52164520101a2ad6a936d93d7e999730cb8
+Author: Nela Šmejkalová <smejkne21@sps-prosek.cz>
+Date:   Tue Oct 8 12:42:12 2024 +0200
+
+    prvni commit
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git innit
+git: 'innit' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/nelan/Documents/Nelca/Škola/Praxe/Git/git_zkouska/.git/
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+nelan@Nelcaa-pc MINGW64 ~
+$ cd /c/Users/nelan/Documents/Nelca/Škola/Praxe/Git/git_zkouska
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska
+$ ls
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska
+$ git init
+Initialized empty Git repository in C:/Users/nelan/Documents/Nelca/Škola/Praxe/Git/git_zkouska/.git/
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ ls -a
+./  ../  .git/
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git config --global user.name "Nela Šmejkalová"
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git config --global user.email "smejkne21@sps-prosek.cz"
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git commit -m "prvni commit"
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        prvni.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config advice.addEmptyPathspec false"
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git add .
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git commit -m "prvni commit"
+[master (root-commit) 192fe52] prvni commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 prvni.txt
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git log
+commit 192fe52164520101a2ad6a936d93d7e999730cb8 (HEAD -> master)
+Author: Nela Šmejkalová <smejkne21@sps-prosek.cz>
+Date:   Tue Oct 8 12:42:12 2024 +0200
+
+    prvni commit
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        druhej.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git add .
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git commit -m "druhej commit"
+[master 1ec08c4] druhej commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 druhej.txt
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git log
+commit 1ec08c4d79f4b0a91113ebfc135d9ac231c509f9 (HEAD -> master)
+Author: Nela Šmejkalová <smejkne21@sps-prosek.cz>
+Date:   Tue Oct 8 12:43:58 2024 +0200
+
+    druhej commit
+
+commit 192fe52164520101a2ad6a936d93d7e999730cb8
+Author: Nela Šmejkalová <smejkne21@sps-prosek.cz>
+Date:   Tue Oct 8 12:42:12 2024 +0200
+
+    prvni commit
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git innit
+git: 'innit' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/nelan/Documents/Nelca/Škola/Praxe/Git/git_zkouska/.git/
+
+nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
