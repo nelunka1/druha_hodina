@@ -217,6 +217,34 @@ The most similar command is
 
 nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
 $ git init
+uhvzehvjieniuvhduihvjhsiufhuihhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhuj
+f
+f
+f
+gf
+gf
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+
 Reinitialized existing Git repository in C:/Users/nelan/Documents/Nelca/Škola/Praxe/Git/git_zkouska/.git/
 
 nelan@Nelcaa-pc MINGW64 ~/Documents/Nelca/Škola/Praxe/Git/git_zkouska (master)
